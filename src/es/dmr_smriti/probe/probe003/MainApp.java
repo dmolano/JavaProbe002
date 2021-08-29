@@ -25,6 +25,8 @@ public class MainApp {
 	 * @param args the arguments
 	 */
 	public static void main(String[] args) {
+		System.out.println(MainApp.class.getCanonicalName());
+		System.out.println(MainApp.class.getPackageName());
 		System.out.println(MainApp.class.getName());
 	}
 }
